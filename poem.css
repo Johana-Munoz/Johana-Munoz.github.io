@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Lemonada:wght@300&family=Rancho&display=swap');
+
+/*
+font-family: 'Arima Madurai', cursive;
+font-family: 'Lemonada', cursive;
+font-family: 'Rancho', cursive;
+
+*/
+body{
+    background-color:dimgray;
+    background-image: url("dreams.jpg");
+    background-position:center;
+    background-size:cover;
+        
+}
+/* code for background details*/
+/*https://www.self.com/story/pandemic-dreams*/
+
+div{
+    padding:20px;
+    margin:20px;
+}
+/* div tags aren't just in one side but are uniformed*/
+
+h1{
+    text-align:center;
+    width:30vw;
+    padding:20px;
+    margin:20px;
+    background-color:gray;
+    color:whitesmoke;
+   
+    border-style: ridge;
+    border-width:8px;
+    border-color:gray;
+    border-radius:10px;
+   
+    font-family: 'Lemonada', cursive;
+    font-size: 40px;
+    transition-duration: 1s;
+    transform: translatex(33vw);
+}
+/* h1 is for the title and these are the fonts size, color, and alignemnt before the hover effect. 
+ * It will stay gray for 1 sec and then it will move to 33vw when the hover effect starts */
+
+h1:hover{
+    background-color: seashell;
+    color: black;
+    border-color:whitesmoke;
+    transition-duration: 1s; 
+}
+/* this changes the background color, text color, border color for a certain amount of time-the transition duration */
+
+h2{
+    
+    text-align:center;
+    padding:20px;
+    margin:20px;
+    width:20vw;
+    background-color:whitesmoke;
+    color:gray;
+    
+    border-style: outset;
+    border-width:8px;
+    border-color:whitesmoke;
+    border-radius:10px;
+    
+    font-family: 'Rancho', cursive;
+    transition-duration: 1s;   
+    transform: translatex(37vw);
+}
+
+h2:hover{
+     background-color: powderblue;
+    color: black;
+    border-color:skyblue;
+    transition-duration: 2s;  
+}
+
+.verse1{
+    text-align:center;
+    width:30vw;
+    background-color:#486C61;
+    color:#242827;
+   
+    border-width: 8px;
+	border-style: double;
+	border-color: #151E1B;
+	border-radius: 20px;
+    
+    font-family: 'Lemonada', cursive;
+    transition-duration: 3s;
+     transform: translatex(-25vw);
+}
+
+.verse1:hover{
+    background-color:#C2D6D0;
+    color: black;
+    border-color: tan;
+    transition-duration: 3s;
+     transform: translatex(33vw);
+}
+
+.verse2{
+    text-align:center;
+    width:30vw;
+    background-color: #C2D6D0;
+    color: black;
+  
+    border-width: 8px;
+	border-style: ridge;
+	border-color: whitesmoke;
+    border-radius: 20px;
+    
+    font-family: 'Arima Madurai', cursive;
+    font-size: 19px;
+    transition-duration: 3s; 
+     transform: translatex(75vw);
+ 
+}
+
+.verse2:hover{
+    background-color: plum;
+    color: black;
+    border-color:#fc62fc;
+    transition-duration: 3s;
+     transform: translatex(35vw);
+}
+
+.verse3{
+    text-align:center;
+    width:30vw;
+    background-color: #C2D6D0;
+    color: black;
+   
+    border-width: 8px;
+	border-style: ridge;
+	border-color: whitesmoke;
+	border-radius: 20px;
+   
+    font-family: 'Arima Madurai', cursive;
+    font-size: 19px;
+    transition-duration:3s;
+    transform: translatex(-25vw);
+ 
+}
+
+.verse3:hover{
+    background-color: #5f84f4;
+   border-color: gold;
+    color:lemonchiffon;
+    transition-duration:3s;
+     transform: translatex(33vw);
+}
+
+.verse4{
+   text-align:center;
+    width:30vw;
+    background-color:#486C61;
+    color:#242827;
+   
+    border-width: 8px;
+	border-style: double;
+	border-color: #151E1B;
+	border-radius: 20px;
+   
+   font-family: 'Lemonada', cursive;
+   transition-duration: 3s;
+   transform: translatex(75vw);
+
+}
+
+.verse4:hover{
+   background-color:steelblue;
+   color:lightblue;
+   font-family: 'Lemonada', cursive;  
+   transform: translatex(35vw);
+   transition-duration: 3s;
+}
