@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    background-color:#61abd3;
+}
+
+.page{
+    text-align:center;
+    width:75vw;
+    padding:20px;
+    margin:20px;
+    background-color:#745aad;
+    color:whitesmoke;
+   
+    border-style: ridge;
+    border-width:8px;
+    border-color:gray;
+    border-radius:10px;
+   
+    font-family: 'Lemonada', cursive;
+    font-size: 25px;
+    transition-duration: 1s;
+    transform: translatex(25vw);
+}
+.page:hover {
+    background-color: powderblue;
+    color: black;
+    border-color:skyblue;
+    transition-duration: 2s;  
+}
+
+     
+#me{
+   width:15%;
+   display: block;
+   margin-left:auto;
+   margin-right:auto;
+}

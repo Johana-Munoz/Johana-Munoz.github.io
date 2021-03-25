@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    background-color:#adc7dd;
+}
+
+.page{ 
+    text-align:center;
+    width:75vw;
+    padding:20px;
+    margin:20px;
+    background-color:#61abd3;
+    color:#000000;
+   
+    border-style: ridge;
+    border-width:8px;
+    border-color:#8255d1;
+    border-radius:10px;
+   
+    font-family: 'Lemonada', cursive;
+    font-size: 25px;
+    transition-duration: 1s;
+    transform: translatex(25vw);
+}
+/* this affects the div tag of "page"/majority of text. This affects the color, fonts, and size.*/
+
+.page:hover{
+    background-color:#C2D6D0;
+    color: black;
+    border-color: tan;
+    transition-duration: 3s;
+    transform: translatex(40vw);
+}
+/*this makes it move and changes color when the mouse hovers over it */
+     

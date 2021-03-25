@@ -1,0 +1,319 @@
+div{
+    color:transparent;
+}
+body{
+    background-color: #61abd3;
+     
+}
+
+#head{
+    background-color:floralwhite;
+    left:50vw;
+    height:40vw;
+    width:42vw;
+    top:32vw;
+    position:absolute;
+    border-radius:90%;
+        
+}
+/* the big white circle(not oval)*/
+
+#body2{
+    background-color:floralwhite;
+    top:35vw;
+    left:23vw;
+    height:35vw;
+    width:45vw;
+    position:absolute;
+    border-radius:100%;
+}
+/* the big white oval*/
+#arm{
+    background-color:black;
+    top:40vw;
+    left:43vw;
+    height:34vw;
+    width:45vw;
+    position:absolute;
+    border-radius:100%;
+    
+}
+#leg{
+     background-color:black;
+    top:40vw;
+    left:18vw;
+    height:32vw;
+    width:35vw;
+    position:absolute;
+    border-radius:100%;
+}
+
+#tail{
+    background-color:black;
+    top:33vw;
+    left:23vw;
+    height:10vw;
+    width:10vw;
+    position:absolute;
+    border-radius:100%;
+           
+}
+
+#ear1{
+     background-color:black;
+    top:30vw;
+    left:52vw;
+    height:10vw;
+    width:10vw;
+    position:absolute;
+    border-radius:100%;
+}
+
+#ear2{
+     background-color:black;
+    top:30vw;
+    left:80vw;
+    height:10vw;
+    width:10vw;
+    position:absolute;
+    border-radius:100%;
+}
+
+#toes{
+      background-color:black;
+    top:65vw;
+    left:39vw;
+    height:6vw;
+    width: 5vw;
+    position:absolute;
+    border-radius:74%;
+}
+
+#hands{
+      background-color:black;
+    top:69vw;
+    left:64vw;
+    height:5vw;
+    width: 12vw;
+    position:absolute;
+    border-radius:74%;
+}
+#eye1{
+    background-color:black;
+    top:46vw;
+    left:63vw;
+    height:12vw;
+    width:10vw;
+    position:absolute;
+    border-radius:100%;
+    transform:rotate(45deg);
+}
+#eye2{
+     background-color:black;
+    top:46vw;
+    left:77vw;
+    height:12vw;
+    width:10vw;
+    position:absolute;
+    border-radius:100%;
+    transform:rotate(-45deg);
+}
+
+#pupil1{
+     background-color:white;
+    top:48vw;
+    left:69vw;
+    height:2vw;
+    width:2vw;
+    position:absolute;
+    border-radius:100%;
+  
+}
+#pupil2{
+  background-color:white;
+    top:48vw;
+    left:79vw;
+    height:2vw;
+    width:2vw;
+    position:absolute;
+    border-radius:100%;
+    
+}
+#grass{
+    background-color:green;
+    top:72vw;
+    width:100vw;
+    height:20vw;
+    position:absolute;
+}
+
+#nose{
+    width:3vw;
+    height:2vw;
+    top:58vw;
+    left:73vw;
+    position:absolute;
+    background-color:black;
+    border-radius:100%;
+
+}
+
+#mouth{
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  background-color:red;
+  top: 60vw;
+  left: 73vw;
+    border-radius:100%; 
+}
+
+#block{
+    position:absolute;
+    width:3vw;
+    height:3vw;
+    background-color:floralwhite;
+    top:59vw;
+    left:73vw;
+    border-radius:100%;
+}
+#piece1{
+    width:6vw;
+    height:14vw;
+    background-color:green;
+    top:42vw;
+    left:10vw;
+    border: 3px solid lightgreen;
+    border-radius:15%;
+        
+}
+/* all pieces are the sections of the bamboo*/
+#piece2{
+     width:6vw;
+    height:14vw;
+    background-color:green;
+    top:30vw;
+    left:10vw;
+    border: 3px solid lightgreen;
+    border-radius:15%; 
+}
+/* all pieces are the sections of the bamboo*/
+#piece3{
+   width:6vw;
+    height:14vw;
+    background-color:green;
+    top:18vw;
+    left:10vw;
+    border: 3px solid lightgreen;
+    border-radius:15%   
+}
+/* all pieces are the sections of the bamboo*/
+#piece4{
+    width:6vw;
+    height:14vw;
+    background-color:green;
+    top:6vw;
+    left:10vw;
+    border: 3px solid lightgreen;
+    border-radius:15%   
+    
+}
+/* all pieces are the sections of the bamboo*/
+#piece5{
+   width:6vw;
+    height:14vw;
+    background-color:green;
+    top:0vw;
+    left:10vw;
+    border: 3px solid lightgreen;
+    border-radius:15%  
+}
+/* all pieces are the sections of the bamboo*/
+#leaf{
+    position:absolute;
+    left:12vw;
+    top:57vw;
+    transform:translate(-50%, -50%);
+    width:10vw;
+    height:10vw;
+    background-color:green;
+    border-radius:200px 0
+             
+}
+#leaf2{
+    position:absolute;
+    left:12vw;
+    top:40vw;
+    transform:translate(-50%, -50%);
+    width:10vw;
+    height:10vw;
+    background-color:green;
+    border-radius:200px 0  
+}
+#leaf3{
+      position:absolute;
+    left:12vw;
+    top:25vw;
+    transform:translate(-50%, -50%);
+    width:10vw;
+    height:10vw;
+    background-color:green;
+    border-radius:200px 0
+}
+#hand2{
+    width:8vw;
+    height:6vw;
+    top:67vw;
+    left:80vw;
+    position:absolute;
+    background-color:black;
+    border-radius:100%;
+}
+#arm2{
+     width:6vw;
+    height:8vw;
+    top:65vw;
+    left:82vw;
+    position:absolute;
+    background-color:black;
+    border-radius:100%;  
+}
+#leaf8{
+    position:absolute;
+    left:75vw;
+    top:15vw;
+    width:10vw;
+    height:10vw;
+    background-color:green;
+    border-radius:0 100px;
+    transform:rotate(75deg)
+}
+#leaf9{
+   position:absolute;
+    left:65vw;
+    top:30vw;
+    width:10vw;
+    height:10vw;
+    background-color:green;
+    border-radius:0 200px 
+}
+#leaf10{
+   position:absolute;
+    left:40vw;
+    top:20vw;
+    width:10vw;
+    height:10vw;
+    background-color:green;
+    border-radius:0 200px  
+}
+
+
+
+
+
+
+
+
+
+
+
